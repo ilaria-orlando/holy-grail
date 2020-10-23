@@ -115,11 +115,13 @@ footer{
     .container{
         overflow: hidden;
         display: table;
+        box-sizing: border-box;
     }
 
     main{
         float: left;
         width: 52vw;
+        margin: 0;
     }
 
     nav{
