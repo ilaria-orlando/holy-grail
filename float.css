@@ -115,26 +115,28 @@ footer{
     .container{
         overflow: hidden;
         display: table;
-        box-sizing: border-box;
     }
 
     main{
         float: left;
-        width: 52vw;
+        width: 62%;
         margin: 0;
+        box-sizing: border-box;
     }
 
     nav{
         float: left;
-        width: 19vw;
-        height: 70vh;
+        width: 19%;
+        height: 650px;
         margin: 0;
+        box-sizing: border-box;
     }
 
     aside{
         float: left;
-        width: 19vw;
-        height: 70vh;
+        width: 19%;
+        height: 650px;
+        box-sizing: border-box;
 
     }
 
