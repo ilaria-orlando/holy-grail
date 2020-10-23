@@ -1,0 +1,130 @@
+@font-face {
+    font-family: 'Fjalla One';
+    src: url('FjallaOne-Regular.woff2') format('woff2'),
+    url('FjallaOne-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body{
+    background-color: #e8ded2;
+}
+
+header, footer {
+    background-color: #5eaaa8;
+}
+
+main{
+    background-color: #e8ded2;
+}
+
+nav, aside {
+    background-color: #a3d2ca;
+}
+
+h1 {
+    font-family: "Fjalla One", "sans-serif";
+    font-size: 80px;
+    color: #056676;
+    padding: 15px;
+    margin: 0px;
+}
+
+a:link, a:active {
+    font-family: "Fjalla One", "sans-serif";
+    font-size: 25px;
+    color: #e8ded2;
+    text-decoration: none;
+}
+
+
+li{
+    background-color: #056676;
+    width: 115px;
+    height: 50px;
+    margin: 30px 0px 0px 0px;
+    padding: 5px 0px 0px 5px;
+    text-align: center;
+    list-style-type: none;
+}
+
+nav{
+    padding: 25px 15px;
+}
+
+main{
+    margin: 0;
+    padding: 40px 40px 0px 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #056676;
+}
+
+aside{
+    margin: 0;
+    padding: 20px 20px 40px 20px;
+}
+
+img.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    color: #056676;
+}
+
+@media only screen and (max-width: 800px){
+    li.float{
+        float: left;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    main{
+        clear: both;
+    }
+
+
+}
+
+@media only screen and (min-width: 801px){
+
+
+    main{
+        width: 60vw;
+        height: 65vh;
+        float: left;
+    }
+
+    nav{
+        float: inline-start;
+    }
+
+    aside{
+        float: inline-end;
+    }
+
+    nav, aside{
+        width: 15vw;
+        height: 70vh;
+    }
+
+    footer{
+        clear: both;
+    }
+
+    li.float{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+}

@@ -1,0 +1,127 @@
+@font-face {
+    font-family: 'Fjalla One';
+    src: url('FjallaOne-Regular.woff2') format('woff2'),
+    url('FjallaOne-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body{
+    background-color: #e8ded2;
+}
+
+header, footer {
+    background-color: #5eaaa8;
+}
+
+
+nav, aside {
+    background-color: #a3d2ca;
+}
+
+h1 {
+    font-family: "Fjalla One", "sans-serif";
+    font-size: 80px;
+    color: #056676;
+    padding: 15px;
+    margin: 0px;
+}
+
+a:link, a:active {
+    font-family: "Fjalla One", "sans-serif";
+    font-size: 15px;
+    color: #e8ded2;
+    text-decoration: none;
+}
+
+
+li{
+    background-color: #056676;
+    width: 80px;
+    height: 30px;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    list-style-type: none;
+}
+
+nav{
+    padding: 25px 15px;
+    margin: 0;
+}
+
+main{
+    margin: 0px;
+    padding: 40px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #e8ded2;
+    color: #056676;
+}
+
+aside{
+    margin: 0px;
+    padding: 15px;
+}
+
+img.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 20px;
+    text-align: center;
+    color: #056676;
+}
+
+@media only screen and (max-width: 800px){
+    h1{
+        font-size: 45px;
+    }
+
+    ul.row{
+        display: flex;
+        flex-flow: row nowrap;
+        margin: 0;
+        padding: 0;
+    }
+
+    main{
+        padding-top: 15px;
+    }
+
+}
+
+@media only screen and (min-width: 801px){
+    div.flexcontainer{
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        height: 75vh;
+    }
+
+    li{
+        width: 115px;
+        height: 50px;
+        margin: 30px 0px 0px 0px;
+        padding: 5px 0px 0px 5px;
+
+    }
+
+    nav {
+        margin: O;
+        padding: 15px 60px 15px 25px;
+        width: 13vw;
+    }
+
+    a:link, a:active {
+        font-family: "Fjalla One", "sans-serif";
+        font-size: 25px;
+        color: #e8ded2;
+        text-decoration: none;
+    }
+}

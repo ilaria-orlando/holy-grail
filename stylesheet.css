@@ -1,0 +1,56 @@
+@font-face {
+    font-family: 'Fjalla One';
+    src: url('FjallaOne-Regular.woff2') format('woff2'),
+    url('FjallaOne-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body{
+    background-color: #e8ded2;
+}
+
+header, footer {
+    background-color: #5eaaa8;
+}
+
+
+nav, aside {
+    background-color: #a3d2ca;
+}
+
+h1 {
+    font-family: "Fjalla One", "sans-serif";
+    font-size: 80px;
+    color: #056676;
+    padding: 15px;
+    margin: 0px;
+}
+
+a:link, a:active, a:visited {
+    font-family: "Fjalla One", "sans-serif";
+    font-size: 25px;
+    color: #e8ded2;
+    text-decoration: none;
+}
+
+
+li{
+    background-color: #056676;
+    width: 115px;
+    height: 50px;
+    margin: 30px 0px 0px 0px;
+    padding: 5px 0px 0px 5px;
+    text-align: center;
+    list-style-type: none;
+}
+
+
+main {
+    margin: 0px;
+    padding: 40px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #e8ded2;
+    color: #056676;
+}
