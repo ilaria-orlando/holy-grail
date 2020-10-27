@@ -3,26 +3,25 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="grid.css">
+        <link rel="stylesheet" href="floatissues.css">
         <title>CSS Layout - Holy Grail</title>
     </head>
     <body>
         <header>
             <h1>Holy Grail</h1>
         </header>
-        <div class="container">
+           <div class="container">
             <nav>
-                <div class="links">
-                    <ul class="row">
-                        <li class="one"><a href="home.html">Home</a></li>
-                        <li class="two"><a href="shop.html">Shop</a></li>
-                        <li class="three"><a href="news.html">News</a></li>
-                        <li class="four"><a href="about.html">About</a></li>
-                        <li class="five"><a href="contact.html">Contact</a></li>
-                    </ul>
-                </div>
+                <ul>
+                    <li class="float"><a href="home.html">Home</a></li>
+                    <li class="float"><a href="shop.html">Shop</a></li>
+                    <li class="float"><a href="news.html">News</a></li>
+                    <li class="float"><a href="about.html">About</a></li>
+                    <li class="float"><a href="contact.html">Contact</a></li>
+                </ul>
             </nav>
-            <main class="maintext">
+
+            <main class="floatie">
                 <h2>Explore!</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sodales eget ligula eget aliquet.
                     Proin feugiat facilisis lobortis. Pellentesque gravida id nunc sed tincidunt. Mauris eu enim eget nunc
@@ -44,13 +43,13 @@
                     Donec vel luctus elit, nec pulvinar neque. Nullam in nunc mi. Aliquam semper tincidunt pulvinar. Vestibulum et rhoncus arcu.
                     Nulla lacinia condimentum dui at finibus. Sed non arcu non magna pretium commodo a et ligula.
                     Pellentesque commodo semper eleifend. Nulla facilisi. Nulla vitae ornare sem. Phasellus dapibus vel nisl facilisis gravida.
-                    Mauris nisl sem, eleifend sed nibh id, ornare pretium leo. Nullam non nunc lectus. Proin aliquam egestas luctus.</p>
+                    Mauris nisl sem, eleifend sed nibh id, ornare pretium leo. Nullam non nunc lectus. Proin aliquam egestas luctus. </p>
             </main>
 
-            <aside class="ads">
-                <img src="capri.jpg" alt="Capri ad" width="278" height="400">
+            <aside class="floatie">
+                <img src="capri.jpg" alt="Capri ad" width="278" height="400" class="center">
             </aside>
-        </div>
+           </div>
         <footer>
             <p>&copy; Copyright of Orlando enterprises 2020</p>
         </footer>
